@@ -5,4 +5,5 @@ load_dotenv()
 
 class Config:
     BOT_TOKEN = os.getenv("TELEGRAM_TOKEN")
-    OPENAI_KEY = os.getenv("OPENAI_API_KEY")
+    HF_TOKEN = os.getenv("HUGGINGFACE_TOKEN")
+    MODEL_NAME = "Stacy123/rubert_tiny2_qa"
